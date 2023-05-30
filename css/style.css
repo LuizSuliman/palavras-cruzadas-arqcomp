@@ -1,25 +1,32 @@
-body{
+body {
     margin: 0;
 }
 
-.tela_inteira{
+.tela_inteira {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 150vh;
+    height: 100vh;
     background-color: blue;
 }
 
 
-input{
+input {
     display: flex;
-    font-size: 32px;
+    font-size: 24px;
     font-weight: 600;
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     margin: 0;
-    border: 2px solid black;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
 }
 
 td {
@@ -27,5 +34,6 @@ td {
     height: 30px;
     text-align: center;
     border: 1px solid black;
-    background-color: yellow;
-    }
+    background-color: transparent;
+    padding: 0;
+}
