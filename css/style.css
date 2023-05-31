@@ -54,3 +54,7 @@ h1 {
 .bi-arrow-down{
     color: white;
 }
+
+#table_grade {
+    margin-bottom: 10%;
+}
