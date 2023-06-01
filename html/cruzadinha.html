@@ -24,7 +24,7 @@
         <td></td>
         <td></td>
         <td></td>
-        <td style="color: white;"> 8 </td>
+        <td style="color: white;"> 7 </td>
         <td></td>
         <td></td>
         <td></td>
@@ -96,7 +96,7 @@
         <td><input style="text-transform: uppercase" type="text" maxlength="1" class="m7"></td>
         <td></td>
         <td></td>
-        <td style="color: white;"> 13 </td>
+        <td style="color: white;"> 17 </td>
         <td></td>
         <td></td>
         <td></td>
@@ -122,11 +122,11 @@
         <td><input style="text-transform: uppercase" type="text" maxlength="1" class="718"></td>
         <td></td>
         <td></td>
-        <td style="color: white;"> 4 </td>
-        <td><input style="text-transform: uppercase" type="text" maxlength="1" class="l2"></td>
-        <td style="color: white;"> 12 </td>
-        <td></td>
         <td style="color: white;"> 5 </td>
+        <td><input style="text-transform: uppercase" type="text" maxlength="1" class="l2"></td>
+        <td style="color: white;"> 16 </td>
+        <td></td>
+        <td style="color: white;"> 4 </td>
         <td></td>
         <td><input style="text-transform: uppercase" type="text" maxlength="1" class=""></td>
       </tr>
@@ -188,7 +188,7 @@
         <td><input style="text-transform: uppercase" type="text" maxlength="1" class="a7"></td>
         <td></td>
         <td></td>
-        <td style="color: white;"> 14 </td>
+        <td style="color: white;"> 18 </td>
         <td></td>
         <td></td>
         <td><input style="text-transform: uppercase" type="text" maxlength="1" class="m5"></td>
@@ -204,7 +204,7 @@
         <td></td>
         <td></td>
         <td></td>
-        <td style="color: white;"> 15 </td>
+        <td style="color: white;"> 12 </td>
         <td></td>
         <td></td>
         <td style="color: white;"> 9 </td>
@@ -223,7 +223,7 @@
         <td></td>
       </tr>
       <tr>
-        <td style="color: white;"> 16 </td>
+        <td style="color: white;"> 11 </td>
         <td><input style="text-transform: uppercase" type="text" maxlength="1" class="q11"></td>
         <td><input style="text-transform: uppercase" type="text" maxlength="1" class="u11"></td>
         <td><input style="text-transform: uppercase" type="text" maxlength="1" class="a11"></td>
@@ -248,7 +248,7 @@
       <tr>
         <td></td>
         <td></td>
-        <td style="color: white;"> 17 </td>
+        <td style="color: white;"> 14 </td>
         <td></td>
         <td><input style="text-transform: uppercase" type="text" maxlength="1" class="u12"></td>
         <td></td>
@@ -278,7 +278,7 @@
         <td><input style="text-transform: uppercase" type="text" maxlength="1" class="t14"></td>
         <td></td>
         <td><input style="text-transform: uppercase" type="text" maxlength="1" class="a12"></td>
-        <td style="color: white;"> 7 </td>
+        <td style="color: white;"> 8 </td>
         <td><input style="text-transform: uppercase" type="text" maxlength="1" class="f8"></td>
         <td><input style="text-transform: uppercase" type="text" maxlength="1" class="l8"></td>
         <td><input style="text-transform: uppercase" type="text" maxlength="1" class="a7 a8"></td>
@@ -348,7 +348,7 @@
         <td></td>
         <td><input style="text-transform: uppercase" type="text" maxlength="1" class="o12"></td>
         <td></td>
-        <td style="color: white;"> 18 </td>
+        <td style="color: white;"> 15 </td>
         <td><input style="text-transform: uppercase" type="text" maxlength="1" class="c15"></td>
         <td><input style="text-transform: uppercase" type="text" maxlength="1" class="a7 a15"></td>
         <td><input style="text-transform: uppercase" type="text" maxlength="1" class="c15"></td>
@@ -388,17 +388,16 @@
         <td></td>
       </tr>
       <tr>
-        <td style="color: white;"> 11 </td>
+        <td style="color: white;"> 13 </td>
         <td><input style="text-transform: uppercase" type="text" maxlength="1" class="a13"></td>
         <td><input style="text-transform: uppercase" type="text" maxlength="1" class="d13 d14"></td>
         <td><input style="text-transform: uppercase" type="text" maxlength="1" class="r13"></td>
-        <td><input style="text-transform: uppercase" type="text" maxlength="1" class="e12"></td>
+        <td><input style="text-transform: uppercase" type="text" maxlength="1" class="e12 e13"></td>
         <td><input style="text-transform: uppercase" type="text" maxlength="1" class="s13"></td>
         <td><input style="text-transform: uppercase" type="text" maxlength="1" class="s13"></td>
         <td><input style="text-transform: uppercase" type="text" maxlength="1" class="b13"></td>
         <td><input style="text-transform: uppercase" type="text" maxlength="1" class="u13"></td>
         <td><input style="text-transform: uppercase" type="text" maxlength="1" class="s13"></td>
-        <td></td>
         <td></td>
         <td></td>
         <td></td>
@@ -435,7 +434,8 @@
       </tr>
     </table>
 
-    <input style="text-transform: uppercase" id="numero_palavra"> <button
+    <span style="color: white;">Insira o número da palavra que deseja validar:</span><br>
+    <input style="text-transform: uppercase" maxlength="2" id="numero_palavra"> <button
       onclick="validar_palavra(numero_palavra.value)">Validar Palavra</button><br><br>
 
     <!-- Dicas começa aqui -->
@@ -475,76 +475,65 @@
         ultravioleta.
         Usada para armazenar dados mesmo sem alimentação de energia. <br><br>
       </div>
-
-      <div id="exibir" class="dicas"> 7- _____ Memória não-volátil que pode ser apagada, através de eletricidade. Usada
-        para armazenar
-        dados mesmo sem alimentação de energia, com velocidade de leitura e escrita mais rápida. <br><br>
-      </div>
-
-      <div id="exibir" class="dicas"> 8- _______________ Memória não-volátil com o objetivo de armazenar grandes
+      
+      <div id="exibir" class="dicas"> 7- _______________ Memória não-volátil com o objetivo de armazenar grandes
         quantidades de dados.
         HDs são um exemplo. <br><br>
       </div>
 
+      <div id="exibir" class="dicas"> 8- _____ Memória não-volátil que pode ser apagada, através de eletricidade. Usada
+        para armazenar
+        dados mesmo sem alimentação de energia, com velocidade de leitura e escrita mais rápida. <br><br>
+      </div>
+      
       <div id="exibir" class="dicas"> 9- __ significa Direct Memory Acess. Recurso da placa mãe que permite que os
         dispositivos de
         entrada e saída tenham acesso direto a memória RAM, sem intervenção da CPU. Assim é possível aliviar o
         processador, permitindo que ele execute outras tarefas simultâneamente. <br><br>
       </div>
-
+      
       <div id="exibir" class="dicas"> 10- __ Mecânismo que permite que a CPU acesse as memórias do sistema e periféricos
         externos,
         executando a seleção dos dispositivos. <br><br>
       </div>
-
-      <div id="exibir" class="dicas"> 11- ___________ Barramento que identifica a origem física dos dados. <br><br>
+      
+      <div id="exibir" class="dicas"> 11- Um processador _________ possui quatro núcleos de processamento. Cada núcleo pode executar tarefas individualmente, permitindo melhor multitarefa do sistema. Um
+        exemplo de _________ é o Intel Core I5-7600.<br><br>
       </div>
 
-      <div id="exibir" class="dicas"> 12- ________ Barramento que transporta os dados através dos componentes. <br><br>
+      <div id="exibir" class="dicas"> 12- Um processador _________ possui dois núcleos de processamento. Cada núcleo pode executar tarefas individualmente, permitindo melhor multitarefa do sistema. Um
+        exemplo de _________ é o Intel Pentium E5700.<br><br>
       </div>
-
-      <div id="exibir" class="dicas"> 13- O fabricante dos processadores __ e __ é a Intel. Ambos tiveram o inicio de
-        sua fabricação
-        no ano de 2008, e são estruturados com microarquitetura Nehalem. A principal diferenca entre eles é o soquete
-        (__
-        utiliza o soquete LGA 1156, __ utiliza LGA 1366), além do propósito de cada um. Processadores __ são focados em
-        experiências de uso intermediárias de multipropósito, enquanto o __ foca em maior poder de processamento e
-        tarefas
-        que requerem recursos avançados.<br><br>
+      
+      <div id="exibir" class="dicas"> 13- ___________ Barramento que identifica a origem física dos dados. <br><br>
       </div>
-
-      <div id="exibir" class="dicas"> 14- O fabricante dos processadores __ e __ é a Intel. Ambos tiveram o inicio de
-        sua fabricação
-        no ano de 2008, e são estruturados com microarquitetura Nehalem. A principal diferenca entre eles é o soquete
-        (__
-        utiliza o soquete LGA 1156, __ utiliza LGA 1366), além do propósito de cada um. Processadores __ são focados em
-        experiências de uso intermediárias de multipropósito, enquanto o __ foca em maior poder de processamento e
-        tarefas
-        que requerem recursos avançados. <br><br>
-      </div>
-
-      <div id="exibir" class="dicas"> 15- _________ Um processador _________ possui dois núcleos de processamento, e um
-        _________
-        possui quatro. Cada núcleo pode executar tarefas individualmente, permitindo melhor multitarefa do sistema. Um
-        exemplo de _________ é o Intel Pentium E5700, e um exemplo de _________ é o Intel Core I5-7600.<br><br>
-      </div>
-
-      <div id="exibir" class="dicas"> 16- _________ Um processador _________ possui dois núcleos de processamento, e um
-        _________
-        possui quatro. Cada núcleo pode executar tarefas individualmente, permitindo melhor multitarefa do sistema. Um
-        exemplo de _________ é o Intel Pentium E5700, e um exemplo de _________ é o Intel Core I5-7600.<br><br>
-      </div>
-
-      <div id="exibir" class="dicas"> 17- _______ ou Fios de Execução, é a maneira em que as tarefas em um computador
+      
+      <div id="exibir" class="dicas"> 14- _______ ou Fios de Execução, é a maneira em que as tarefas em um computador
         são divididas
         para serem executada de forma concorrente. Um exemplo é na execução de um vídeo, onde há uma _______ para audio
         e
         uma _______ para imagem/visualização.<br><br>
       </div>
 
-      <div id="exibir" class="dicas"> 18- _____ por ser próxima do processador e muito rápida, é utilizada para guardar
+      <div id="exibir" class="dicas"> 15- _____ por ser próxima do processador e muito rápida, é utilizada para guardar
         dados e
         processor temporários acessados com frequência.<br><br>
+      </div>
+      
+      <div id="exibir" class="dicas"> 16- ________ Barramento que transporta os dados através dos componentes. <br><br>
+      </div>
+      
+      <div id="exibir" class="dicas"> 17- O fabricante do processador __ a Intel. Teve o inicio de
+        sua fabricação
+        no ano de 2008, e é estruturado com microarquitetura Nehalem. Utiliza o soquete LGA 1156. Processadores __ são focados em
+        experiências de uso intermediárias de multipropósito.<br><br>
+      </div>
+
+      <div id="exibir" class="dicas"> 18- O fabricante dos processadores __ é a Intel. Teve o inicio de
+        sua fabricação
+        no ano de 2008, e é estruturado com microarquitetura Nehalem. Utiliza o soquete LGA 1366. Processadores __ são focados em maior poder de processamento e
+        tarefas
+        que requerem recursos avançados. <br><br>
       </div>
     </div>
   </div>
