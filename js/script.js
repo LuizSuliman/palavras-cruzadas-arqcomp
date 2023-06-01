@@ -39,12 +39,11 @@ function validar_palavra(numero_palavra) {
             palavras_restantes --
     
             listaValidadas.push(resposta_certa)
-    
             if (palavras_restantes == 0) {
                 alert("Você ganhou! Agora pode montar um PC do zero.")
                 reiniciarCruzadinha();
             } else {
-                alert(`Parabéns! Faltam ${palavras_restantes} palavras.`)
+                alert(`Parabéns! Faltam ${palavras_restantes} palavras.`);
             }
         } else {
             alert("Ops! Tente novamente.")
