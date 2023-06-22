@@ -12,7 +12,7 @@ function validar_palavra(numero_palavra) {
 
     var jaValidou = false
     for (var indiceValidadas = 0; indiceValidadas < listaValidadas.length; indiceValidadas++) {
-        if (resposta_cer ta == listaValidadas[indiceValidadas]) {
+        if (resposta_certa == listaValidadas[indiceValidadas]) {
             jaValidou = true
         }
     }
